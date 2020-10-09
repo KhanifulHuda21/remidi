@@ -98,9 +98,9 @@ if(isset($_POST['filter']))
         <tbody>
             <tr>
             <td><b><img src="images/<?php echo $value[3]; ?>" alt="gagal" width="200px"></b></td>
-            <td><?php echo $value[0]; ?></td>
-            <td><?php echo $value[1]; ?></td>
-            <td><?php echo $value[2]; ?></td>
+            <td class="text-light"><?php echo $value[0]; ?></td>
+            <td class="text-light"><?php echo $value[1]; ?></td>
+            <td class="text-light"><?php echo $value[2]; ?></td>
             </tr>
         </tbody>
         <?php $grand_total+=$value[2]; ?>
